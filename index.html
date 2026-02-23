@@ -183,21 +183,12 @@
             <h1>Contact</h1>
             <div class="contact-container">
                 <div class="contact-form">
-                    <form
-                            name="contact"
-                            method="POST"
-                            data-netlify="true"
-                    >
-                        <input type="hidden" name="form-name" value="contact">
-                        <div style="display:none;">
-                            <input name="bot-field">
-                        </div>
+                    <form action="https://formspree.io/f/mzdakvez" method="POST">
                         <h2>Send me a message:</h2>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email" required>
-
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                         <button type="submit">Submit</button>
